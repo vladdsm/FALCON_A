@@ -45,6 +45,13 @@ Finally in order to use in trading mode move files from /tester folder to the /F
 10. execute script _CopyDATFilesToProd.bat to copy generated files to the T1, T3, T4...
 11. Make sure that platforms/computer are restarted
 
+# Deploy method (see folder mt4_profile)
+
+Copy and paste folder mt4_profile/T1_FALCON_A and it's content to the Trading Terminal1
+Copy and paste folder mt4_profile/T3_FALCON_A and it's content to the Trading Terminal3
+
+Open/close MT4 terminal and load profile T1_FALCON_A. All 28 charts with deployed robot should appear...
+
 # Disclaimer
 
 Use on your own risk: past performance is no guarantee of the future results!
